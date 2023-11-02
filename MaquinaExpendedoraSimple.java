@@ -16,7 +16,7 @@ public class MaquinaExpendedoraSimple {
      * precio del billete y el origen y destino dados. Se asume que el precio
      * del billete que se recibe es mayor que 0.
      */
-    public void MaquinaExpendedoraSimple() {
+    public MaquinaExpendedoraSimple() {
         precioBillete = 20;
         balanceClienteActual = 0;
         totalDineroAcumulado = 0;
