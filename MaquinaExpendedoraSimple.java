@@ -58,6 +58,13 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     
+     /**
+     *      Extraer todo el dinero que ha acumulado la maquina desde su ultimo vaciado
+     */
+    public void vaciarDepositoDinero(){
+        totalDineroAcumulado = 0;
+    }
+    
     /**
      * Devuelve el precio del billete
      */
